@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.sec-one {
+  background-color: #61dafb;
+  background: url("https://assets.volvo.com/is/content/VolvoInformationTechnologyAB/volvo-brand-film-0x360-730k");
+}
+
+.meet {
+  width: 100%;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +42,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
