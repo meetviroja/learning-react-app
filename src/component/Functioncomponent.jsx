@@ -40,12 +40,6 @@ const Functioncomponent = () => {
                         </MDBBtn>
                     </li>
                     <br />
-                    <li>
-                        <MDBBtn color='greay'>
-                            <Link to="Todolist"> Todolist </Link>
-                        </MDBBtn>
-                    </li>
-                    <br />
 
                 </ol>
             </div >

@@ -1,21 +1,17 @@
 import React, { Children, Suspense } from 'react';
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from './component/Homepage';
-// import About from './component/About';
 import Contact from './component/contact';
 import Leftbtn from './component/Leftbtn';
 import Middelbtn from './component/Middelbtn';
 import Rightbtn from './component/Rightbtn';
 import Meet from './component/Meet';
-import Loading from './comcomponent/Loading'
-// import Example from './component/Example';
+import Loading from './comcomponent/Loading';
 import FunctionComponent from './component/Functioncomponent';
-import ClassComponent from './component/ClassComponent'
+import ClassComponent from './component/ClassComponent';
 import Usestate from './Function Component/Usestate';
-import Todolist from './Function Component/Todolist';
 import Apifatching1 from './Function Component/Apifatching1';
 import Apifatching2 from './Function Component/Apifatching2';
-// import Apiimg from './Function Component/Apiimg';
 import Usememo from './Function Component/Usememo';
 import ClassCompoIntro from './classcomponent/Classcomintro';
 import Constructor from './classcomponent/Constructor';
@@ -35,7 +31,10 @@ import Practice from './Practice';
 import Pclasscomponent from './Practice/classcomponent/Pclasscomponent';
 import PfunctionComponent from './Practice/PfunctionComponent';
 import Pusestate from './Practice/pfunctioncomponent/Pusestate';
-import Tudulist from './component/Meet';
+import Ptodolist from './Practice/pfunctioncomponent/Ptodolist';
+import Pcurdop from './Practice/pfunctioncomponent/Pcurdop';
+import Pcurdop2 from './Practice/pfunctioncomponent/Pcurdop2';
+
 
 
 const Examplelazy = React.lazy(() => import('./component/About'))
@@ -99,10 +98,6 @@ const MainRoutes = createBrowserRouter([
                     {
                         path: "Usememo",
                         element: <Usememo />
-                    },
-                    {
-                        path: "Tudulist",
-                        element: <Tudulist />
                     }
                 ]
             },
@@ -185,6 +180,18 @@ const MainRoutes = createBrowserRouter([
                     {
                         path: "Pusestate",
                         element: <Pusestate />
+                    },
+                    {
+                        path: "Ptodolist",
+                        element: <Ptodolist />
+                    },
+                    {
+                        path: "Pcurdop",
+                        element: <Pcurdop />
+                    },
+                    {
+                        path: "Pcurdop2",
+                        element: <Pcurdop2 />
                     }
                 ]
             }

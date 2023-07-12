@@ -1,0 +1,32 @@
+.tdname {
+    width: 250px;
+}
+.tdbtn{
+    width: 60px;
+}
+.tac{
+    text-align: center;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    
+    border: 1px solid black;
+}
+.editbtn{
+    background-color: yellowgreen;
+    padding: 2px 16px;
+}
+.deletbtn{
+    padding: 2px 16px;
+    background-color: tomato;
+}
+.addbtn{
+    background-color: aqua;
+    padding: 2px 26px;
+}
+.inputname{
+    padding: 2px 31px;
+
+}
